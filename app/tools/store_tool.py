@@ -3,9 +3,9 @@ import json
 from dotenv import find_dotenv, load_dotenv
 from langchain.tools import StructuredTool
 from pydantic import BaseModel, Field
-from app.structures.available_tasks import tasks
-from app.utils.alternative_parser import alternative_parser
-from app.utils.message_parser import message_parser
+from structures.available_tasks import tasks
+from utils.alternative_parser import alternative_parser
+from utils.message_parser import message_parser
 
 #load env file
 _ = load_dotenv(find_dotenv())

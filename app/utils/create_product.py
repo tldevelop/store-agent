@@ -8,5 +8,11 @@ def create_product(payload:dict, headers:dict, endpoint:str) -> str:
         'stock':int(payload.get('stock'))
     }
 
-    requests.post(endpoint,headers=headers,json=product)
+    try:
+        requests.post(endpoint,headers=headers,json=product)
+        print("request successful")
+    except:
+        print("something went wrong")
+        
+
     
