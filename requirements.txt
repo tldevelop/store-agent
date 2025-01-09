@@ -3,8 +3,10 @@ langchain
 langchainhub
 langchain-community
 langchain-huggingface
+langchain-openai
 langgraph
 langgraph-checkpoint-sqlite
 python-dotenv
 text-generation
+openai
 transformers
